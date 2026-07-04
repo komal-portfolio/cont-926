@@ -1,0 +1,43 @@
+# Image Placeholder Instructions
+
+## Quick Setup Guide for Images
+
+This folder should contain your portfolio images. Follow these steps:
+
+### Option 1: Download Manually (Recommended)
+
+1. Visit **Unsplash.com** and search for:
+   - "education classroom" → Save as `education.jpg`
+   - "Indigenous community" → Save as `land-acknowledgement.jpg`
+   - "diverse learning group" → Save as `indigenous-learning.jpg`
+   - "community hands together" → Save as `allyship.jpg`
+   - "teaching environment" → Save as `profile-bg.jpg`
+   - "growth journey" → Save as `coming-soon.jpg`
+
+2. Save each image with the exact filename shown in the table below
+
+3. Place all images in this `images/` folder
+
+### Required Image Files
+
+| Filename | Minimum Size | Purpose |
+|----------|--------------|---------|
+| profile-bg.jpg | 350×280px | Header background |
+| education.jpg | 600×500px | About Me section |
+| land-acknowledgement.jpg | 600×400px | Module 1 - Takeaway 1 |
+| indigenous-learning.jpg | 600×400px | Module 1 - Takeaway 2 |
+| allyship.jpg | 600×400px | Module 1 - Takeaway 3 |
+| coming-soon.jpg | 400×350px | Other Modules placeholder |
+
+### Option 2: Using a Script
+
+If you have `curl` or `wget` installed, run this command from the `images/` folder:
+
+```bash
+# Example: Download education image from Unsplash
+curl -o education.jpg "https://images.unsplash.com/photo-1427504494785-cdec0f72b686?w=600&q=80"
+```
+
+---
+
+**Once images are added, delete this file and your portfolio will display correctly!**
