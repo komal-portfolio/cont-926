@@ -421,6 +421,17 @@ body {
     text-decoration: underline;
 }
 
+.quote {
+    font-style: italic;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    border-left: 4px solid var(--secondary-color);
+    background: var(--bg-light);
+    border-radius: 5px;
+}
+
 /* ==========================================
    RESPONSIVE DESIGN
    ========================================== */
