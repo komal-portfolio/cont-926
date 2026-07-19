@@ -67,6 +67,19 @@ body {
     opacity: 0.95;
 }
 
+.header-text .land-acknowledgement {
+    font-size: 0.95em;
+    font-weight: 300;
+    opacity: 0.90;
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-left: 3px solid var(--secondary-color);
+    border-radius: 5px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
 .header-bg {
     width: 350px;
     height: 280px;
@@ -446,6 +459,12 @@ body {
         font-size: 2.5em;
     }
 
+    .header-text .land-acknowledgement {
+        font-size: 0.90em;
+        padding: 12px 15px;
+        margin-top: 15px;
+    }
+
     .header-bg {
         width: 100%;
         max-width: 350px;
@@ -498,6 +517,12 @@ body {
 
     .header-text .tagline {
         font-size: 1.1em;
+    }
+
+    .header-text .land-acknowledgement {
+        font-size: 0.85em;
+        padding: 12px 15px;
+        margin-top: 15px;
     }
 
     .intro-section {
